@@ -10,6 +10,7 @@ function App() {
     setResult("");
   }
   const press = () => {
+
     setResult(eval(result).toString());
   }
   return (
